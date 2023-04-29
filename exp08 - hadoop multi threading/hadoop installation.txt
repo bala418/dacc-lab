@@ -1,0 +1,16 @@
+Download Hadoop: First, you need to download Hadoop from the Apache Hadoop website. Make sure you download the correct version of Hadoop for your system.
+
+Install Java: Hadoop requires Java to run, so you need to install Java on your system. You can use OpenJDK or Oracle JDK.
+
+Configure SSH: Hadoop requires SSH access to nodes in your cluster for communication between nodes. You need to configure SSH to enable passwordless access to other nodes in your cluster.
+
+Set up Hadoop user: You should create a dedicated Hadoop user to run Hadoop processes. This user should have the necessary permissions to access Hadoop files and directories.
+
+Configure Hadoop: You need to edit the Hadoop configuration files to customize the settings for your system. The main configuration file is hadoop-env.sh which sets environment variables for Hadoop.
+
+Format HDFS: HDFS is the file system used by Hadoop. Before starting Hadoop, you need to format the HDFS file system by running the command: hadoop namenode -format.
+
+Start Hadoop: You can start Hadoop by running the command: start-all.sh. This script starts all the necessary Hadoop processes, including the NameNode, DataNode, JobTracker, and TaskTracker.
+
+That's it! Once Hadoop is up and running, you can start using it to process large data sets. Note that the specific steps and commands may vary depending on your system and Hadoop version.
+

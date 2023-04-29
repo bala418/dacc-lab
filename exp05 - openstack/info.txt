@@ -1,0 +1,51 @@
+Working of OpenStack  
+ It is essentially a series of commands known as scripts. These scripts are bundled into packages 
+called projects that relay tasks that create cloud environments. To create these environments, 
+OpenStack relies on  
+- Virtualization that creates a layer of virtual resources abstracted from hardware  
+- A base as that carries out commands given by OpenStack scripts  
+OpenStack uses virtualized resources to build clouds. It doesn’t execute commands, rather 
+delays them to base OS.  
+Components of OpenStack  
+ OpenStack’s architecture is made up of numerous open source projects. These are used to set 
+up OpenStack’s undercloud and overcloud. Overcloud is used by cloud users and undercloud is 
+used by system admins. Underclouds contain the core components system admins need to set 
+up and manage end user’s environments called overclouds.  
+ There are 6 stable, core services that handle computing, networking, storage, identity and 
+images. These make up the infrastructure of OpenStack that allows the rest of the projects to 
+handle dashboarding, orchestration, etc.  
+The 6 components are:  
+- Nova: It is a full management tool that helps compute resource-handling, scheduling, creation, 
+deletion, etc.  
+- Neutron: It connects the networks across other services  
+- Swift: It is a highly fault-tolerant object storage service that stores and retrieves  
+unstructured data objects  
+- Cinder: Provides persistent block storage  
+- Keystone: Authenticates and authorises all services  
+- Glance: Stores and retrieves VM disc images from various locations  
+Deployment of OpenStack  
+It is mostly deployed as infrastructure-as-a-Service (IaaS) in both public and private  
+clouds where virtual servers and other resources are made available to users. The software  
+platform consists of interrelated components control diverse, multivendor hardware. Lifecycle  
+management tools and packaging are used to help instances maintain the lifecycle of  
+deployments. Frameworks for the above are Tripleo, OpenStack-helm, kolla-ansible, kayole,  
+etc.  
+Challenges in Implementation  
+● Installation challenges  
+● Documentation  
+● Upgrading OpenStack  
+● Long Term Support  
+● Deployment Models  
+● OpenStack-based public cloud  
+● On-premises distribution  
+● Hosted OpenStack Private Cloud  
+● Appliance based OpenStack 
+● Applications of OpenStack  
+● Private clouds and Public clouds  
+● Network function virtualization  
+● Containers  
+
+Result:  
+ Thus, OpenStack deployment, its implementation and its applications have been  
+studied.
+

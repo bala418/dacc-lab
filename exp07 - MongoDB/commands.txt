@@ -1,0 +1,19 @@
+db.product.insertOne({pid: 1, pname: "Name1", ptype: "AAA", price: 1000, manufacturer: "AAB", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 2, pname: "Name12", ptype: "AAAB", price: 100, manufacturer: "AAB", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 3, pname: "Name13", ptype: "AAA", price: 1000, manufacturer: "AA", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 4, pname: "Name14", ptype: "AAAB", price: 1000, manufacturer: "AA", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 5, pname: "Name15", ptype: "AAA", price: 1000, manufacturer: "AA", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 6, pname: "Name16", ptype: "AAA", price: 100, manufacturer: "AA", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 7, pname: "Name17", ptype: "AAAB", price: 1000, manufacturer: "AAB", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 8, pname: "Name18", ptype: "AAAB", price: 1000, manufacturer: "AAB", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 9, pname: "Name19", ptype: "AAA", price: 1000, manufacturer: "AA", stockqty: 25, tax: {cgst: 0, sgst: 0}})
+
+db.product.insertOne({pid: 10, pname: "Name20", ptype: "AAA", price: 1000, manufacturer: "AA", stockqty: 25, tax: {cgst: 0, sgst: 0}})
